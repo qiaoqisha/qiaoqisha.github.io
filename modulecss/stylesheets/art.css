@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.f-an a:hover { text-decoration: none; }
+
+.g-headtop { height: 72px; font-size: 0; overflow: hidden; }
+.g-headtop img, .g-headtop a { display: inline-block; *display: inline; *zoom: 1; }
+.g-headtop .sign { vertical-align: top; margin-top: 19px; }
+.g-headtop .u-nav { width: 117px; height: 72px; text-align: center; line-height: 72px; font-family: \5fae\8f6f\96c5\9ed1; font-size: 17px; color: #333; }
+.g-headtop .u-nav:hover { color: #fff; background-color: #956ebb; }
+.g-headtop .u-nav.s-crt { color: #fff; background-color: #956ebb; }
+.g-headtop .u-nav.first { margin-left: 76px; }
+
+/* 分页 */
+.m-paging { margin-top: 40px; }
+
+.m-paging a, .m-paging em { display: inline-block; margin: 0 3px; padding: 0 10px; height: 27px; line-height: 27px; border: 1px solid #E8E8E8; }
+
+.m-paging a.s-crt { color: #fff; background-color: #57BC4C; border-color: #57BC4C; }
+
+.m-paging { margin: 50px 0; }
+.m-paging a.s-crt { background-color: #D5A402; border-color: #D5A402; }
+
+/* 放大 */
+div.zoomTitle { z-index: 5000; text-align: center; font-size: 11px; font-family: Tahoma; height: 16px; padding-top: 2px; position: absolute; top: 0px; left: 0px; width: 100%; color: #FFF; background: #999; }
+
+.zoomPup { overflow: hidden; background-color: #FFF; -moz-opacity: 0.6; opacity: 0.6; filter: alpha(opacity=60); z-index: 10; border-color: #c4c4c4; border-style: solid; cursor: crosshair; }
+
+.zoomPup img { border: 0px; }
+
+.preload { -moz-opacity: 0.8; opacity: 0.8; filter: alpha(opacity=80); color: #333; font-size: 12px; font-family: Tahoma; text-decoration: none; border: 1px solid #CCC; background-color: white; padding: 8px; text-align: center; background-image: url(../images/zoomloader.gif); background-repeat: no-repeat; background-position: 43px 30px; width: 90px; * width: 100px; height: 43px; *height: 55px; z-index: 10; position: absolute; top: 3px; left: 3px; }
+
+.zoomWindow { border: 1px solid #999; background-color: #FFF; }
+
+.m-lunbo { height: 555px; }
+.m-lunbo .ui-slide-list span { width: 12px; height: 12px; margin-left: 8px; }
+.m-lunbo .ui-slide-list span.s-crt { background-color: #FFD800; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2FFD800,endColorstr=#b2FFD800); background: rgba(255, 216, 0, 0.7); background: transparent\;; }
+.m-lunbo .ui-slide-prev { width: 50px; height: 84px; left: 100px; background: url(../../subject/hotbeijing/images/left.png) no-repeat; }
+.m-lunbo .ui-slide-next { width: 50px; height: 84px; right: 100px; background: url(../../subject/hotbeijing/images/right.png) no-repeat; }
+
+.m-products { background-color: #F7F7F7; margin-top: 50px; padding-bottom: 70px; }
+.m-products .m-lunbo2 { width: 1000px; height: 239px; margin: 0 auto; }
+.m-products .m-lunbo2.ui-slide-scroll .ui-slide li { width: 272px; height: 215px; padding: 10px; border: none; text-align: center; background-color: #fff; box-shadow: 0 0 1px 2px #E3E3E3; }
+.m-products .m-lunbo2.ui-slide-scroll .ui-slide li img { margin: 0 auto; }
+.m-products .m-lunbo2.ui-slide-scroll .ui-slide li p { margin-top: 15px; }
+.m-products .m-lunbo2.ui-slide-scroll .ui-slide-btn { width: 17px; }
+.m-products .ui-slide-scroll .ui-slidewrap { margin: 0 47px; }
+
+.m-sponsor { padding: 33px 0; border-top: 2px solid #CFCFCF; }
+
+.g-foot { background-color: #585858; padding: 60px 0; }
+.g-foot .us { width: 460px; }
+.g-foot .us a { margin-right: 17px; }
+.g-foot .usinfo { width: 300px; }
+.g-foot .usinfo div { margin-bottom: 20px; height: 23px; line-height: 23px; padding-left: 25px; }
+.g-foot .usinfo div.a1 { background: url(../../subject/hotbeijing/images/a_r2_c41.jpg) no-repeat 0px 0px; }
+.g-foot .usinfo div.a2 { background: url(../../subject/hotbeijing/images/a_r2_c41.jpg) no-repeat 0px -42px; }
+.g-foot .usinfo div.a3 { background: url(../../subject/hotbeijing/images/a_r2_c41.jpg) no-repeat 0px -84px; }
+.g-foot .usinfo div.a4 { background: url(../../subject/hotbeijing/images/a_r2_c41.jpg) no-repeat 0px -122px; }
+.g-foot .uswx { width: 200px; }
+
+.m-lunbo3 { width: 379px; height: 470px; }
+.m-lunbo3 .ui-slidewrap { height: 379px; overflow: visible; }
+.m-lunbo3 .ui-slidewrap .ui-slide { overflow: visible; }
+.m-lunbo3 .ui-slide-scroll .ui-slide li { width: 57px; height: 57px; margin-right: 7px; }
+.m-lunbo3 .ui-slide-scroll .ui-slide-btn { top: 32px; }
+.m-lunbo3 .ui-slide-scroll .ui-slidewrap { height: 100%; overflow: hidden; }
